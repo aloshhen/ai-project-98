@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-coffee-50 text-coffee-900;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-coffee-500 to-coffee-900 bg-clip-text text-transparent;
+}
